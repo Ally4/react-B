@@ -21,9 +21,17 @@ class App extends Component {
     render() {
         return (
             <div>
-                <h1 id="value" aria-label="value">{ this.state.number }</h1>
+    <form action="">
+        <h1>signin</h1><br />
+        <label htmlFor="">email</label>
+        <input type="email"/>
+        <input type="password"/>
+        <input type="button" value="LOGIN"/>
+    </form>
+
+                {/* <h1 id="value" aria-label="value">{ this.state.number }</h1>
                 <button id="incrementButton" aria-label="incrementButton" name="increment" onClick={(e)=> this.handleChange(e)}> increment +</button>
-                <button id="decrementButton" aria-label="decrementButton" name="decrement" onClick={(e)=> this.handleChange(e)}> decrement  -</button>
+                <button id="decrementButton" aria-label="decrementButton" name="decrement" onClick={(e)=> this.handleChange(e)}> decrement  -</button> */}
             </div>
         )
     }
